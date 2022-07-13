@@ -1,0 +1,86 @@
+---
+title: "The interactive things chapter"
+author: "Charlotte Hadley"
+output:
+  xaringan::moon_reader:
+    css: ["styles.css", "default"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+## htmlwidgets: JavaScript
+
+As Dr Alfie Abdul-Rahman will explain later today - the interactive web is driven by JavaScript*.
+
+Just like R, there are Javascript packages [or frameworks] that are designed for building data visualisations.
+
+---
+
+### htmlwidgets gives R interactivity
+
+The `{htmlwidgets}` package is a tool that allows R developers build R wrappers for JavaScript.
+
+This means we R users can build interactive charts, maps and more with R code instead of needing to learn JavaScript.
+
+---
+
+# htmlwidgets.org
+
+The spiritual home of `htmlwidgets` is [htmlwidgets.org](http://htmlwidgets.org) and is maintained by the folks at RStudio.
+
+- [htmlwidgets.org](http://htmlwidgets.org) introduces the basics of building your own `htmlwidget` packages
+
+- [htmlwidgets.org](http://htmlwidgets.org) has a showcase of the 13 most high-profile `htmlwidget` packages (many of which have been developed by RStudio themselves)
+
+- [htmlwidgets.org](http://htmlwidgets.org) has a gallery of many other `htmlwidget` packages.
+
+---
+
+## htmlwidgets sanity check
+
+Every single `htmlwidget` package is completely unique in the way that data and chart options are specified.
+
+Why?
+
+- Underlying JavaScript libraries/frameworks are often completely different to one another.
+
+- Developers have a choice between an easy to use `htmlwidget` and a package that allows you to do *everything* you could do with the native JS library.
+
+- Developers have a choice in how `tibble` columns are specified to the chart; `"columns_as_strings"`, `naked_columns`, `~formula_columns`.
+
+---
+
+class: center, middle
+
+# What shall we make?
+
+---
+
+class: center, middle, inverse
+
+# Building web apps with {shiny}
+
+---
+
+# Interactive Data Network
+
+I started the [idn.it.ox.ac.uk](https://idn.it.ox.ac.uk/) service to support researchers in building interactive data visualisations of Open Access datasets.
+
+We needed a tool that:
+
+- Was easy to learn (look what we've done with R already!)
+
+- Allowed the web app to download the **canonical dataset** - the one with a DOI.
+
+- Was afforable for a pilot project in IT Services.
+
+> {shiny} was the only tool that came anywhere near meeting these requirements.
+
+
+
+
+
+

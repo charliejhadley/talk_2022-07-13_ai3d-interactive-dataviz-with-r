@@ -1,0 +1,16 @@
+---
+title: "Reproducibility with R"
+author: "Charlotte Hadley"
+output:
+  xaringan::moon_reader:
+    css: ["styles.css", "default"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+## ... RStudio projects?
+
+We're using RStudio project because they 

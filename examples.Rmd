@@ -1,0 +1,23 @@
+---
+title: "Examples"
+output: html_document
+date: '2022-07-12'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(fivethirtyeight)
+library(sf)
+library(rnaturalearthdata)
+library(leaflet)
+library(plotly)
+library(highcharter)
+library(rmarkdown)
+library(shiny)
+library(janitor)
+```
+

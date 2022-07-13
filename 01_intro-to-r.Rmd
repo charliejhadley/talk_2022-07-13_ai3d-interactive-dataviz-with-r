@@ -1,0 +1,186 @@
+---
+title: "(Reproducible) Data Visualisation with R and how to make interactive things with R"
+author: "Charlotte Hadley"
+output:
+  xaringan::moon_reader:
+    css: ["styles.css", "default"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+# That title is too long
+
+I'm going to talk about 4 things:
+
+- R: What it is and the R user community
+
+- [Static] Data visualisation with {ggplot2}
+
+- Interactive data visualisation with R
+
+- Reproducible research [and data visualisation with R]
+
+---
+
+class: inverse, center, middle
+
+# R
+
+---
+
+class: center, middle
+
+# Who has never used R before?
+
+---
+
+### What do you get when you install R?
+
+There are 3 things you get when you install R:
+
+- The gubbins necessary to run R code
+
+--
+
+- A collection of R packages we call **base R** because *everyone* has them
+
+--
+
+- An application for running R code
+
+.pull-left[
+On macOS that application is called `R.app`
+]
+
+.pull-right[
+On Windows that application might be called `Rgui.exe` or `R i386`.
+
+]
+
+> These are terrible ways to use R.
+
+---
+
+class: inverse, center, middle
+
+# RStudio
+
+---
+
+### RStudio is *the* place to write R code
+
+RStudio is a traditional IDE designed for the R language.
+
+It also provides built in tools for:
+
+- Static data visualisation
+
+- Interactive data visualisation with htmlwidgets
+
+- Web application development with Shiny
+
+- Reproducible research patterns with RStudio projects and RMarkdown.
+
+> We're going to start using RStudio project NOW and explain why later.
+
+---
+
+class: inverse, center, middle
+
+# CRAN
+
+---
+
+## CRAN is where R lives
+
+You downloaded R from CRAN. It's also the package repository for R.
+
+It contains 18,000+ packages.
+
+They're all<sup>1</sup> installed in the same way
+
+```{r, eval=FALSE}
+install.packages("tidyverse")
+```
+
+
+.footnote[
+1 - If available for the current version of R
+]
+
+---
+
+## Packages you'll need
+
+```{r, eval=FALSE}
+install.packages(
+  c(
+    "tidyverse",
+    "fivethirtyeight",
+    "sf",
+    "rnaturalearthdata",
+    "leaflet",
+    "plotly",
+    "highcharter",
+    "rmarkdown",
+    "shiny"
+  )
+)
+```
+
+---
+
+class: inverse, center, middle
+
+# tidyverse
+
+---
+
+# What's the tidyverse
+
+.pull-left[
+The tidyverse is a collection of packages for doing data science<sup>1</sup>
+
+<img src='https://d33wubrfki0l68.cloudfront.net/795c039ba2520455d833b4034befc8cf360a70ba/558a5/diagrams/data-science-explore.png'/>
+
+It's the backbone of the incredible [FREE] [R for Data Science book](https://r4ds.had.co.nz/index.html).
+
+And the [R for Data Science Online Learning Community](https://www.rfordatasci.com/)
+
+]
+
+.pull-right[
+<img src='https://d33wubrfki0l68.cloudfront.net/b88ef926a004b0fce72b2526b0b5c4413666a4cb/24a30/cover.png'/>
+]
+
+
+.footnote[
+1 - Data cleaning, wrangling, modelling <br>and static data visualisation.
+]
+
+---
+
+class: inverse, center, middle
+
+# R Community
+
+---
+
+class: center, middle
+
+## #rstats
+
+<img src='https://www.t4rstats.com/images/welcome_to_rstats_twitter_social.png'/>
+
+.footnote[
+Want to learn more about Twitter and R? [t4rstats.com](https://www.t4rstats.com)
+]
+
+---
+
+class: inverse, center, middle
+
+## Some data visualisations - please?
