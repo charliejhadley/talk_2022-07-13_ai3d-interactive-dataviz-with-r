@@ -1,9 +1,16 @@
 ---
-title: "Untitled"
+title: "(Reproducible) Data Visualisation with R and how to make interactive things with R"
 output: github_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+This repo contains my 2022-07-13 talk for the [Artificial Intelligence for Scientific Discovery Network+ (AI3SD)](https://www.ai4science.network/ai3sd-event/13-14-07-2022-failed-it-to-nailed-it-nailing-your-data-visualisation-hands-on-workshop/) workshop *Nailing your Data Visualisation: Training Workshop*.
+
+Please note that this talk is approximately 50% live coding so the slides won't make too much sense on their own. The materials I wrote during the talk can be found here - XXXX
+
+During the talk I made use of this etherpad, [pad.riseup.net/p/2022-07-13_cjh](https://pad.riseup.net/p/2022-07-13_cjh). I've stored the contents of the etherpad in the `talk-etherpad.md` file.
+
 
