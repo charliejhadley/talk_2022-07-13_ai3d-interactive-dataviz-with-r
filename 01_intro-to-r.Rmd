@@ -116,19 +116,9 @@ install.packages("tidyverse")
 ## Packages you'll need
 
 ```{r, eval=FALSE}
-install.packages(
-  c(
-    "tidyverse",
-    "fivethirtyeight",
-    "sf",
-    "rnaturalearthdata",
-    "leaflet",
-    "plotly",
-    "highcharter",
-    "rmarkdown",
-    "shiny"
-  )
-)
+install.packages(c("fivethirtyeight", "fontawesome", "ggplot2", 
+                   "here", "highcharter", "janitor", "leaflet", "plotly", "rmarkdown", "rnaturalearthdata", 
+                   "sf", "shiny", "tidyverse", "xaringan", "visNetwork"))
 ```
 
 ---
