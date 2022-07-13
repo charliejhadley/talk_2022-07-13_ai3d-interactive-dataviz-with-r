@@ -1,0 +1,79 @@
+---
+title: "Where to go to learn R?"
+author: "Charlotte Hadley"
+output:
+  xaringan::moon_reader:
+    css: ["styles.css", "default"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+# R for Data Science Book
+
+.pull-left[
+
+The [R for Data Science book](https://r4ds.had.co.nz/index.html) is really awesome.
+
+<br>
+
+The [R for Data Science Online Learning Community](https://www.rfordatasci.com/) has a Slack group that will help you through the exercises.
+
+
+]
+
+.pull-right[
+<img src='https://d33wubrfki0l68.cloudfront.net/b88ef926a004b0fce72b2526b0b5c4413666a4cb/24a30/cover.png'/>
+]
+
+---
+
+## #rstats
+
+<img src='https://www.t4rstats.com/images/welcome_to_rstats_twitter_social.png'/>
+
+.footnote[
+Want to learn more about Twitter and R? [t4rstats.com](https://www.t4rstats.com)
+]
+
+---
+
+class: middle
+
+.pull-left[
+R in 3 Months is a commercial training course I co-instruct with David Keyes.
+
+It covers data wrangling, visualisation and RMarkdown.
+
+There are weekly assignments where you use **your own datasets** and get feedback videos from me.
+]
+
+.pull-right[
+<img src='images/rin3-months.png'/>
+]
+
+---
+
+class: middle
+
+.pull-left[
+I have {shiny}, {htmlwidget} and RMarkdown training courses on LinkedIn Learning.
+
+Many universities now provide access to LinkedIn Learning for all staff and students.
+
+Access is included with a free trial of LinkedIn Premium.
+
+
+]
+
+.pull-right[
+<img src='images/lil-courses.png'/>
+]
+
+
+
+
+
+

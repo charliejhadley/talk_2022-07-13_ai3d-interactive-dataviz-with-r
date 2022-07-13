@@ -13,4 +13,13 @@ Please note that this talk is approximately 50% live coding so the slides won't 
 
 During the talk I made use of this etherpad, [pad.riseup.net/p/2022-07-13_cjh](https://pad.riseup.net/p/2022-07-13_cjh). I've stored the contents of the etherpad in the `talk-etherpad.md` file.
 
+## Required packages
+
+To follow along with the live coding you will need to install several packages:
+
+```{r, eval=FALSE}
+install.packages(c("fivethirtyeight", "fontawesome", "ggplot2", 
+  "here", "highcharter", "janitor", "leaflet", "plotly", "rmarkdown", "rnaturalearthdata", 
+  "sf", "shiny", "tidyverse", "xaringan", "visNetwork"))
+```
 
