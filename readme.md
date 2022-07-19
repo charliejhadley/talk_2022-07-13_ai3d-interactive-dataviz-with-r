@@ -8,8 +8,9 @@ for Scientific Discovery Network+
 workshop *Nailing your Data Visualisation: Training Workshop*.
 
 Please note that this talk is approximately 50% live coding so the
-slides won’t make too much sense on their own. The materials I wrote
-during the talk can be found here - XXXX
+slides won’t make too much sense on their own. [You can download the
+code I wrote during the
+workshop](https://drive.google.com/file/d/1QbZR2Bca2MYdbynKCebq85LTblXAKv2W/view?usp=sharing).
 
 During the talk I made use of this etherpad,
 [pad.riseup.net/p/2022-07-13_cjh](https://pad.riseup.net/p/2022-07-13_cjh).
