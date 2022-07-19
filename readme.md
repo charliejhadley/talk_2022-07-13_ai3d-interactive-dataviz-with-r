@@ -11,6 +11,8 @@ Please note that this talk is approximately 50% live coding so the
 slides won’t make too much sense on their own. [You can download the
 code I wrote during the
 workshop](https://drive.google.com/file/d/1QbZR2Bca2MYdbynKCebq85LTblXAKv2W/view?usp=sharing).
+[A PDF copy of the talk is available
+here](https://github.com/charliejhadley/talk_2022-07-13_ai3d-interactive-dataviz-with-r/raw/main/all-slides-pdf.pdf).
 
 During the talk I made use of this etherpad,
 [pad.riseup.net/p/2022-07-13_cjh](https://pad.riseup.net/p/2022-07-13_cjh).
